@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Attachments.me -- JS~Hack</title>
+		<link rel="stylesheet" type = "text/css" href="./css/computer-style.css"/>
+		<script type="text/javascript" src="./lib/third-party/jquery.min.js"></script>
+		<script type="text/javascript" src="./lib/third-party/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="./lib/terminal.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var hireHack = new HireHack();
+			});
+		</script>
+	</head>
+	<body >
+		<div class = "window">
+			<img class="poster" src="https://s3.amazonaws.com/attachments.me.publicfiles/poster.jpg" />
+			<img class="poster2" width="250" src="https://s3.amazonaws.com/attachments.me.publicfiles/poster2.jpg" />
+			<a href="https://attachments.me/pages/join" class="logo"><img src="https://attachments.me/images/new_designs/logo-white.png" /></a>
+			<div class = "monitorContainer">
+				
+				<ul id="score-container">
+				</ul>
+
+				<div class = "monitor">
+					<div class = "screenView files" id="monitorScreen">
+						<span id="editor" style="display: none">
+							<textarea class = "editorTerminalScreen" id="editorTerminal"></textarea>
+							<div class = "fileTerminalPrompt" id="editorInput">
+								<span id="textEditorTerminalPrefix">:w :q $</span><input id="textEditorTerminalSuffix" type="text" />
+							</div>
+						</span>
+						<span id="cl">
+							<div class = "screenGlare"></div>
+							<div class = "fileTerminalScreen" id="fileTerminal"></div>
+							<div class = "fileTerminalPrompt">
+								<span id="terminalPrefix"></span><input id="terminalSuffix" type="text" />
+							</div>
+						</span>
+					</div>
+					<div class = "monitorBottom">
+						<div id = "powerButton">I/O</div>
+						<div id = "brandLabel">Persimmon %3</div>
+					</div>
+				</div>
+				<div class = "underMonitor"></div>
+			</div>
+		</div>
+	</body>
+</html>
