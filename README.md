@@ -9,7 +9,7 @@ JSHack is a multiplayer game that tests your real-world JavaScript skills:
 * It's in Node.js using the Express framework.
 * User accounts are handled via [everyauth](https://github.com/bnoguchi/everyauth/)
 
-You can see it running here: https://attachments.me/hirehack/public/computer.html
+You can try it out here: https://attachments.me/hirehack/public/computer.html
 
 It's Open Source!
 -----------------
