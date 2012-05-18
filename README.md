@@ -14,7 +14,7 @@ You can try it out here: https://attachments.me/hirehack/public/computer.html
 It's Open Source!
 -----------------
 
-I don't have time to maintain or update this game, so I've decided to make it open source.
+We don't have time to maintain or update this game, so I've decided to make it open source.
 
 I'd love to see what kinds of other challenges and features people come up with.
 
@@ -27,12 +27,12 @@ Dependencies
 
 Installation
 -------------
-If you just want to try things out:
+To install from NPM:
 
 * npm install js-hack -g
 * run _js-hack -g_ to generate the public files.
 * run _js-hack -p_ to populate the MongoDB database.
-* edit __~/js-hack/environment.py_ and add the appropriate paths and credentials.
+* edit _~/js-hack/environment.py_ and add the appropriate paths and credentials.
 * run _js-Hack -s_ to start the js-hack server.
 
 By default the game will be hosted at from _0.0.0.0:9000/js-hack/public/computer.html_ you will need to set things up on an actual domain to get everyauth working properly.
