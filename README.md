@@ -46,6 +46,15 @@ JSHack uses [micro-test](https://github.com/bcoe/node-micro-test) for unit testi
 * run _npm install micro-test -g_
 * run _micro-test_ in the project folder.
 
+Leader's Board
+--------------
+
+Here's the current leader's board from my hosted version of JSHack.
+
+1. ![pcimino](https://secure.gravatar.com/avatar/152c4393e1f8d17f34adc727cd657278?s=32) [pcimino](https://github.com/pcimino)
+2. ![vjeux](https://secure.gravatar.com/avatar/48a313e2ad9f47036b3a4d073cef3e54?s=32) [vjeux](https://github.com/vjeux)
+3. ![minitech](https://secure.gravatar.com/avatar/ad70e2494769b308240329977c19adae?s=32) [minitech](https://github.com/minitech)
+
 Copyright
 ---------
 
