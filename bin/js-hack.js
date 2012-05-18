@@ -52,12 +52,12 @@ function populateMongo(options) {
 			console.log(error);
 		} else {
 			var collection = new mongodb.Collection(client, 'challenges');
-			collection.insert(challenges.challenges, function(err, object) {
+			collection.insert(challenges, function(err, object) {
 				if (err) {
 					console.log(err);
 				} else {
 					collection = new mongodb.Collection(client, 'users');
-					collection.insert(user.user, function(err, object) {
+					collection.insert(user, function(err, object) {
 						if (err) {
 							console.log(err);
 						} else {

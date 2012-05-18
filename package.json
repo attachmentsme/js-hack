@@ -6,7 +6,7 @@
 	},
 	"main": "./lib/index.js",
 	"bin": "./bin/js-hack.js",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Attachments.me",
 	"engines": ["node"],
 	"description": "A multiplayer JavaScript hacking game.",
